@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sathyan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 02:40:29 PM"/>
+        <attribute name="created" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0wNDswMjowNzoyNiBQTTszMDk2"/>
+        <attribute name="edited" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0xMTswMjo0MDoyOSBQTTsyOzMyMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <output expression="&quot;enter value of num1,num2&quot;" newline="True"/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="average" expression="(num1+num2)/2"/>
+            <output expression="&quot;the aveage of two numbers entered is:&quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
